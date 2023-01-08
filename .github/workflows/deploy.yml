@@ -13,6 +13,8 @@ jobs:
     steps: # 自动化步骤
       - name: Checkout
         uses: actions/checkout@v2 # Download Repo
+#       - run: |
+#           echo -e 'REF_URL=https://refs.xxx.net/\nREF_LABEL=网站首页' > .env
       - run: yarn install
       - run: yarn build
 
