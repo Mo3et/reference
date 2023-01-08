@@ -1,1 +1,19 @@
 # https://github.com/marketplace/actions/fork-sync
+name: Sync
+on:
+  schedule:
+    - cron: '8 0 * * *' # every day 0:00 UTC +8
+# cron tools: https://crontab.guru/
+# cron examples: https://crontab.guru/examples.html
+  workflow_dispatch: # on button click
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: tgymnich/fork-sync@v1.6.3
+        with:
+          owner: jaywcjlove
+          base: main
+          head: main
+#           github_token: 
