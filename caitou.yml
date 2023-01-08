@@ -1,0 +1,21 @@
+
+#### site
+# site tag is website name
+
+
+site: quickref 
+
+#### public
+#   Public tags is builded files. Example: dist public.
+#   production_branch is only run in this branch. Example: main , product build etc.
+# public: public
+# production_branch: live
+
+# public: public
+public: dist
+force_ssl: true
+# rewrites:
+#   - source: /api/*
+#     destination: https://api.to.path/$1
+# domains:
+#   china: 
