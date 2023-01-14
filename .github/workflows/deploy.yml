@@ -5,6 +5,10 @@ on:
       - main # 只在main上push触发部署
     #   - README.md
     #   - LICENSE
+  pull_request:
+     branches:
+       - main 
+  
 
 jobs:
   deploy:
