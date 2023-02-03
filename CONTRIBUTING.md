@@ -277,6 +277,9 @@ jobs:
 <a href="https://github.com/DaiNing810" title="DaiN">
   <img src="https://avatars.githubusercontent.com/u/94962339?v=4" width="42;" alt="DaiN"/>
 </a>
+<a href="https://github.com/Damao2250" title="Damao">
+  <img src="https://avatars.githubusercontent.com/u/19251992?v=4" width="42;" alt="Damao"/>
+</a>
 <a href="https://github.com/demigodliu" title="DemigodLiu">
   <img src="https://avatars.githubusercontent.com/u/30372735?v=4" width="42;" alt="DemigodLiu"/>
 </a>
@@ -316,8 +319,8 @@ jobs:
 <a href="https://github.com/PipecraftNet" title="Pipecraft">
   <img src="https://avatars.githubusercontent.com/u/88728670?v=4" width="42;" alt="Pipecraft"/>
 </a>
-<a href="https://github.com/QDelta" title="QDelta">
-  <img src="https://avatars.githubusercontent.com/u/60222316?v=4" width="42;" alt="QDelta"/>
+<a href="https://github.com/QDelta" title="Jianxing Qin">
+  <img src="https://avatars.githubusercontent.com/u/60222316?v=4" width="42;" alt="Jianxing Qin"/>
 </a>
 <a href="https://github.com/qinxiongzhou" title="Ryan Zhou">
   <img src="https://avatars.githubusercontent.com/u/33239096?v=4" width="42;" alt="Ryan Zhou"/>
@@ -327,6 +330,9 @@ jobs:
 </a>
 <a href="https://github.com/hi-liyan" title="Yan Li">
   <img src="https://avatars.githubusercontent.com/u/40056492?v=4" width="42;" alt="Yan Li"/>
+</a>
+<a href="https://github.com/yikuaibro" title="ZhiQiang Li">
+  <img src="https://avatars.githubusercontent.com/u/44493045?v=4" width="42;" alt="ZhiQiang Li"/>
 </a>
 <a href="https://github.com/y52y" title="Zyj">
   <img src="https://avatars.githubusercontent.com/u/51304324?v=4" width="42;" alt="Zyj"/>
