@@ -267,6 +267,9 @@ jobs:
 <a href="https://github.com/catcto" title="喵仙人">
   <img src="https://avatars.githubusercontent.com/u/5467932?v=4" width="42;" alt="喵仙人"/>
 </a>
+<a href="https://github.com/MarioMang" title="MarioMang">
+  <img src="https://avatars.githubusercontent.com/u/3959555?v=4" width="42;" alt="MarioMang"/>
+</a>
 <a href="https://github.com/Country-If" title="Maylon">
   <img src="https://avatars.githubusercontent.com/u/62837275?v=4" width="42;" alt="Maylon"/>
 </a>
@@ -446,6 +449,9 @@ jobs:
 </a>
 <a href="https://github.com/Mowmowj" title="shelton">
   <img src="https://avatars.githubusercontent.com/u/24759562?v=4" width="42;" alt="shelton"/>
+</a>
+<a href="https://github.com/wannima66" title="tmen">
+  <img src="https://avatars.githubusercontent.com/u/26410255?v=4" width="42;" alt="tmen"/>
 </a>
 <a href="https://github.com/wjjwkwindy" title="wjjwkwindy">
   <img src="https://avatars.githubusercontent.com/u/9508591?v=4" width="42;" alt="wjjwkwindy"/>
