@@ -264,6 +264,9 @@ Quick Reference
 <a href="https://github.com/heStudio-Network" title="醉、倾城">
   <img src="https://avatars.githubusercontent.com/u/119711513?v=4" width="42;" alt="醉、倾城"/>
 </a>
+<a href="https://github.com/dadatom" title="Da Da">
+  <img src="https://avatars.githubusercontent.com/u/33886943?v=4" width="42;" alt="Da Da"/>
+</a>
 <a href="https://github.com/XYZscratcher" title="XYZ">
   <img src="https://avatars.githubusercontent.com/u/108533817?v=4" width="42;" alt="XYZ"/>
 </a>
@@ -302,9 +305,6 @@ Quick Reference
 </a>
 <a href="https://github.com/CharlotteZeng" title="hanchZ">
   <img src="https://avatars.githubusercontent.com/u/19461184?v=4" width="42;" alt="hanchZ"/>
-</a>
-<a href="https://github.com/dadatom" title="Da Da">
-  <img src="https://avatars.githubusercontent.com/u/33886943?v=4" width="42;" alt="Da Da"/>
 </a>
 <a href="https://github.com/Damao2250" title="Damao">
   <img src="https://avatars.githubusercontent.com/u/19251992?v=4" width="42;" alt="Damao"/>
@@ -557,7 +557,7 @@ Quick Reference
 [qirishuzhai.com](http://qirishuzhai.com/quickref)<!--rehype:target=_blank-->
 [longdada.me](https://ref.longdada.me)<!--rehype:target=_blank-->
 [xalaok.top](https://ref.xalaok.top)<!--rehype:target=_blank-->
-[dadatom.com](https://tools.dadatom.com/reference)<!--rehype:target=_blank&class=contributing&data-info=👆支持ipv4和ipv6-->
+[dadatom.com](https://tools.dadatom.com/reference/)<!--rehype:target=_blank&class=contributing&data-info=👆支持ipv4和ipv6-->
 <!--rehype:class=home-card home-links-->
 
 如果你有资源，可以很方便[部署 web 版](https://github.com/jaywcjlove/reference/issues/102#issue-1451649637)，这非常简单，只需要克隆 [gh-pages](https://github.com/jaywcjlove/reference/tree/gh-pages) 分支代码到你的静态服务就可以了，还可以使用 [docker](https://hub.docker.com/r/wcjiang/reference) 快捷部署 web 版。
