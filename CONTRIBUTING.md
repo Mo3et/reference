@@ -360,6 +360,9 @@ jobs:
 <a href="https://github.com/QDelta" title="QDelta">
   <img src="https://avatars.githubusercontent.com/u/60222316?v=4" width="42;" alt="QDelta"/>
 </a>
+<a href="https://github.com/RivailleF" title="RivailleF">
+  <img src="https://avatars.githubusercontent.com/u/93083015?v=4" width="42;" alt="RivailleF"/>
+</a>
 <a href="https://github.com/qinxiongzhou" title="Ryan Zhou">
   <img src="https://avatars.githubusercontent.com/u/33239096?v=4" width="42;" alt="Ryan Zhou"/>
 </a>
@@ -503,6 +506,9 @@ jobs:
 </a>
 <a href="https://github.com/qwxingzhe" title="行者">
   <img src="https://avatars.githubusercontent.com/u/7071651?v=4" width="42;" alt="行者"/>
+</a>
+<a href="https://github.com/Zeng-qh" title="都一样">
+  <img src="https://avatars.githubusercontent.com/u/40046415?v=4" width="42;" alt="都一样"/>
 </a><!--GAMFC-END-->
 
 上图贡献者列表，由 [contributors](https://github.com/jaywcjlove/github-action-contributors) 自动生成贡献者图片。

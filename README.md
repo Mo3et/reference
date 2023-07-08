@@ -375,6 +375,9 @@ Quick Reference
 <a href="https://github.com/QDelta" title="QDelta">
   <img src="https://avatars.githubusercontent.com/u/60222316?v=4" width="42;" alt="QDelta"/>
 </a>
+<a href="https://github.com/RivailleF" title="RivailleF">
+  <img src="https://avatars.githubusercontent.com/u/93083015?v=4" width="42;" alt="RivailleF"/>
+</a>
 <a href="https://github.com/qinxiongzhou" title="Ryan Zhou">
   <img src="https://avatars.githubusercontent.com/u/33239096?v=4" width="42;" alt="Ryan Zhou"/>
 </a>
@@ -518,6 +521,9 @@ Quick Reference
 </a>
 <a href="https://github.com/qwxingzhe" title="行者">
   <img src="https://avatars.githubusercontent.com/u/7071651?v=4" width="42;" alt="行者"/>
+</a>
+<a href="https://github.com/Zeng-qh" title="都一样">
+  <img src="https://avatars.githubusercontent.com/u/40046415?v=4" width="42;" alt="都一样"/>
 </a><!--GAMFC-END-->
 
 [贡献者](https://github.com/jaywcjlove/reference/graphs/contributors)列表，由 [contributors](https://github.com/jaywcjlove/github-action-contributors) 根据提交次数的先后顺序自动生成
