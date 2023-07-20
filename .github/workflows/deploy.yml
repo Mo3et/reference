@@ -1,13 +1,16 @@
 name: Deploy
 on:
-  push:
+ pull_request:
     branches:
-      - main # 只在main上push触发部署
+      - main 
+# push:
+#     branches:
+#       - main # 只在main上push触发部署
     #   - README.md
     #   - LICENSE
-  pull_request:
-     branches:
-       - main 
+ 
+ 
+ 
   
 
 jobs:
