@@ -7,9 +7,9 @@ on:
     #  触发条件是 bot 创建的
     #  检查 PR 的作者是不是 bot
     
-# push:
-#     branches:
-#       - main # 只在main上push触发部署
+ push:
+   branches:
+     - main # 只在main上push触发部署
     #   - README.md
     #   - LICENSE
  
