@@ -2,7 +2,11 @@ name: Deploy
 on:
  pull_request:
     branches:
-      - main 
+      - main
+    types: [closed]
+    #  触发条件是 bot 创建的
+    #  检查 PR 的作者是不是 bot
+    
 # push:
 #     branches:
 #       - main # 只在main上push触发部署
