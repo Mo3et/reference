@@ -961,6 +961,7 @@ bool containsCherries = words.Contains("cherries");
 <!--rehype:className=wrap-text-->
 
 ### ConcurrentBag
+<!--rehype:wrap-class=col-span-2-->
 
 ```cs
 // 创建一个并发安全的整数集合
@@ -975,39 +976,14 @@ foreach (var number in concurrentNumbers.ToArray())
 {
     concurrentNumbers.TryTake(out _number); // 并发安全地移除一个元素
 }
-
-// 修改（无法直接修改，同样需先移除再添加，但由于并发特性，不能保证一定能修改目标元素）
-// 在并发环境下尤其复杂，此处省略示例
-
-// 查询（Contains）
-bool hasOne = concurrentNumbers.Contains(1);
 ```
 
-### Dictionary
+修改（无法直接修改，同样需先移除再添加，但由于并发特性，不能保证一定能修改目标元素）。
+在并发环境下尤其复杂，此处省略示例
 
 ```cs
-// 创建一个键值对字典
-Dictionary<string, int> scores = new Dictionary<string, int>
-{
-    { "Alice", 85 },
-    { "Bob", 90 }
-};
-
-// 增加（Add）
-scores.Add("Charlie", 88);
-
-// 删除（Remove）
-scores.Remove("Bob");
-
-// 修改（Update）
-if (scores.ContainsKey("Alice"))
-{
-    scores["Alice"] = 90; // 直接替换值
-}
-
-// 查询（ContainsKey / GetValueOrDefault）
-bool aliceExists = scores.ContainsKey("Alice");
-int charlieScore = scores.GetValueOrDefault("Charlie", 0);
+// 查询（Contains）
+bool hasOne = concurrentNumbers.Contains(1);
 ```
 
 ### Stack
@@ -1032,6 +1008,34 @@ stack.Push(poppedValue * 2);
 // 查询（Peek / Contains） 但不移除栈顶元素
 int peekedValue = stack.Peek();
 bool hasTwo = stack.Contains(2);
+```
+
+### Dictionary
+<!--rehype:wrap-class=col-span-2-->
+
+```cs
+// 创建一个键值对字典
+Dictionary<string, int> scores = new Dictionary<string, int>
+{
+    { "Alice", 85 },
+    { "Bob", 90 }
+};
+
+// 增加（Add）
+scores.Add("Charlie", 88);
+
+// 删除（Remove）
+scores.Remove("Bob");
+
+// 修改（Update）
+if (scores.ContainsKey("Alice"))
+{
+    scores["Alice"] = 90; // 直接替换值
+}
+
+// 查询（ContainsKey / GetValueOrDefault）
+bool aliceExists = scores.ContainsKey("Alice");
+int charlieScore = scores.GetValueOrDefault("Charlie", 0);
 ```
 
 ### Hashtable
@@ -1061,6 +1065,137 @@ bool hasKey2 = hashTable.ContainsKey("key2");
 string valueOfKey2 = (string)hashTable["key2"];
 ```
 
+语法糖
+----
+
+> 语法糖需要根据 `c#` 版本来确实是否可以使用，一般情况下 `c# 8.0` 及以上的 `C#` 版本都已支持。
+
+### 对象判空及赋值
+<!--rehype:wrap-class=col-span-2-->
+
+```cs
+// 判断对象是否为空，为空抛出异常
+if(obj == null) throw new NullReferenceException();
+
+// 简化的语法糖
+obj ?? throw new NullReferenceException();
+
+// 判断 对象为空 的情况下再赋新值
+//     对象不为空 不进行赋值
+if(obj == null)
+{
+  obj = new object();
+}
+
+// 简化的语法糖
+obj ??= new object();
+```
+
+### 可空类型判空及赋值
+
+```cs
+// 可空类型
+int? nums = null;
+
+// 判断值是否为空，并进行不同的赋值
+if(nums == null)
+{
+  result = -1;
+} 
+else 
+{
+  result = nums;
+}
+
+// 简化的语法糖
+int result = nums ?? -1;
+```
+
+### 减少空引用
+
+判断数组或 `list` 不能 `null` 且有元素
+
+```cs
+if(list != null && list.Count > 0)
+```
+
+简化的语法糖当 `list` 为 `null` 时，将直接返回 `false`
+
+```cs
+if(list?.Count > 0)
+```
+
+同样可运用在赋值时，如果 `obj` 为 `null`，将不会取 `obj.text` 的值，而是将会为 `text` 赋值 `null`
+
+```cs
+string text = obj?.text;
+```
+<!--rehype:className=wrap-text-->
+
+### 判断参数类型并转换类型+校验
+
+- 判断 `value` 是否为 `string` 类型，如果 `value` 是 `string` 类型
+- 那么将 `value` 转换为 `string` 类型，并赋值给 `stringValue`
+- 再判断 `stringValue` 是否不为 `Null` 或 `空`
+<!--rehype:className=style-timeline-->
+
+```cs
+if(value is string stringValue && !string.IsNullOrEmpty(stringValue))
+```
+<!--rehype:className=wrap-text-->
+
+### Switch
+
+```cs
+public string GetNums(int num)
+{
+  // 使用这种方式的switch时，要求返回类型统一
+  string str = num switch
+  {
+    1 => "num的值是1",
+    2 => "num的值是2",
+    3 => "num的值是3",
+    4 => "num的值是4",
+    _ => "其他"
+  };
+
+  return str;
+}
+```
+
+### 切片操作
+
+<!--rehype:wrap-class=col-span-2-->
+
+```cs
+// **以下所有[]中的数字都代表索引**
+// **如果是范围索引，且声明结束索引，那么都将不包含结束索引的值**
+
+// 数组例子
+string[] arr = new string[] { "10", "20", "30", "40", "50", "60", "70", "80", "90", "100" };
+
+// 获取最后一个元素
+string str = arr[^1];
+
+// 获取前3个元素，从索引0开始 到 索引3(不包含)：["10","20","30"]
+// 可省略索引0，从开始 到 索引3(不包含)
+// string[] strs = arr[..3];
+string[] strs1 = arr[0..3];
+
+// 获取后3个元素，从倒数第3个元素开始 到 最后：["80", "90", "100"]
+// 最后一位索引被省略 string[] strs21 = arr[^3..^0];
+// ^0 倒数第0个元素是不存在的
+string[] strs2 = arr[^3..];
+
+// 指定获取 正向 某一段元素
+// 从索引3开始 到 索引7(不包含)：["40", "50", "60", "70"]
+string[] strs3 = arr[3..7];
+
+// 指定获取 反向 某一段元素
+// 倒数第4个元素开始 到 倒数第2个元素(不包含)：["70","80"]
+string[] strs4 = arr[^4..^2];
+```
+
 杂项
 -----------
 
@@ -1073,4 +1208,4 @@ string valueOfKey2 = (string)hashTable["key2"];
 `Common Language Runtime (CLR)` | 通用语言运行库 | 主要定位、加载和托管 .NET 对象。<br/>CLR 还处理内存管理、应用程序托管、线程协调、执行安全检查和其他低级细节
 `Managed code` | 托管代码 | 在 `.NET` 运行时编译和运行的代码。 C#/F#/VB 就是例子
 `Unmanaged code` | 非托管代码 | 直接编译为机器代码且不能由 .NET 运行时直接托管的代码。<br/>不包含空闲内存管理、垃圾收集等。从 C/C++ 创建的 DLL 就是示例
-<!--rehype:className=show-header-->
+<!--rehype:className=show-header left-align-->
