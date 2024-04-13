@@ -51,10 +51,10 @@ Quick Reference
 [Dart](./docs/dart.md)<!--rehype:style=background: rgb(64 196 255);-->  
 [Docker](./docs/docker.md)<!--rehype:style=background: rgb(72 143 223);-->  
 [Dockerfile](./docs/dockerfile.md)<!--rehype:style=background: rgb(0 72 153);&class=tag&data-lang=Docker-->  
-[Django](./docs/django.md)<!--rehype:style=background: rgb(12 75 51);&class=contributing tag&data-lang=Python--> 
-[Elixir](./docs/elixir.md)<!--rehype:style=background: rgb(124 26 156);&class=contributing tag&data-lang=Elixir--> 
-[Flask](./docs/flask.md)<!--rehype:style=background: rgb(210 168 255);&class=contributing tag&data-lang=Python--> 
-[FastAPI](./docs/fastapi.md)<!--rehype:style=background: rgb(210 168 255);&class=contributing tag&data-lang=Python-->
+[Django](./docs/django.md)<!--rehype:style=background: rgb(12 75 51);&class=contributing tag&data-lang=Python-->  
+[Elixir](./docs/elixir.md)<!--rehype:style=background: rgb(124 26 156);&class=contributing tag&data-lang=Elixir-->   
+[Flask](./docs/flask.md)<!--rehype:style=background: rgb(210 168 255);&class=contributing tag&data-lang=Python-->  
+[FastAPI](./docs/fastapi.md)<!--rehype:style=background: rgb(210 168 255);&class=contributing tag&data-lang=Python-->  
 [Flutter](./docs/flutter.md)<!--rehype:style=background: rgb(150 220 254);&class=contributing tag&data-lang=Dart-->  
 [Golang](./docs/golang.md)<!--rehype:style=background: rgb(39 160 193);-->  
 [GraphQL](./docs/graphql.md)<!--rehype:style=background: rgb(214 66 146);-->  
@@ -281,6 +281,7 @@ Quick Reference
 <a href="https://github.com/MackDing" title="Blossom"><img src="https://avatars.githubusercontent.com/u/19878893?v=4" width="42;" alt="Blossom"/></a>
 <a href="https://github.com/1250422131" title="萌新杰少"><img src="https://avatars.githubusercontent.com/u/52126790?v=4" width="42;" alt="萌新杰少"/></a>
 <a href="https://github.com/chaos-cn" title="chaos"><img src="https://avatars.githubusercontent.com/u/71205599?v=4" width="42;" alt="chaos"/></a>
+<a href="https://github.com/Willxup" title="Willxup"><img src="https://avatars.githubusercontent.com/u/51990395?v=4" width="42;" alt="Willxup"/></a>
 <a href="https://github.com/LiuYuan-SHU" title="Yuan Liu"><img src="https://avatars.githubusercontent.com/u/96400967?v=4" width="42;" alt="Yuan Liu"/></a>
 <a href="https://github.com/lvelvee" title="Lve Lvee"><img src="https://avatars.githubusercontent.com/u/25785753?v=4" width="42;" alt="Lve Lvee"/></a>
 <a href="https://github.com/wsypower" title="魏"><img src="https://avatars.githubusercontent.com/u/31298317?v=4" width="42;" alt="魏"/></a>
@@ -295,7 +296,6 @@ Quick Reference
 <a href="https://github.com/ljq" title="Jack Liu"><img src="https://avatars.githubusercontent.com/u/7278286?v=4" width="42;" alt="Jack Liu"/></a>
 <a href="https://github.com/Jovins" title="Jovins"><img src="https://avatars.githubusercontent.com/u/17738992?v=4" width="42;" alt="Jovins"/></a>
 <a href="https://github.com/LesterChang0987" title="LesterChang0987"><img src="https://avatars.githubusercontent.com/u/114913921?v=4" width="42;" alt="LesterChang0987"/></a>
-<a href="https://github.com/Willxup" title="Willxup"><img src="https://avatars.githubusercontent.com/u/51990395?v=4" width="42;" alt="Willxup"/></a>
 <a href="https://github.com/XYZscratcher" title="XYZ"><img src="https://avatars.githubusercontent.com/u/108533817?v=4" width="42;" alt="XYZ"/></a>
 <a href="https://github.com/findnr" title="findnr"><img src="https://avatars.githubusercontent.com/u/3909023?v=4" width="42;" alt="findnr"/></a>
 <a href="https://github.com/greyhao" title="greyhao"><img src="https://avatars.githubusercontent.com/u/107107440?v=4" width="42;" alt="greyhao"/></a>
